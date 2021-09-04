@@ -1,0 +1,22 @@
+message.channel.send({ embed: {
+    color: 3447003,
+    author: {
+      name: EagleHunter2,
+      icon_url: client.user.displayAvatarURL(https://yt3.ggpht.com/u4ogyPAAFH289BEjhYZlKqGp7vSh_Vw7W4fRd0hMqg6V7sZStQtnimkls-K83Pi4uSXB-1WGOME=s88-c-k-c0x00ffffff-no-rj)
+    },
+    title: "My Socials",
+    description: "Dear fellow users, want to check my socials here you go!",
+    fields: [{
+        name: "My Socials:",
+        value: "[YouTube](https://www.youtube.com/c/eaglehunter2)
+                    [Twitter](https://twitter.com/hunter2eagle)
+                    [Reddit](https://reddit.com/u/eaglehunter2)"
+      },
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.displayAvatarURL(https://yt3.ggpht.com/u4ogyPAAFH289BEjhYZlKqGp7vSh_Vw7W4fRd0hMqg6V7sZStQtnimkls-K83Pi4uSXB-1WGOME=s88-c-k-c0x00ffffff-no-rj),
+      text: "EagleHunter2"
+    }
+  }
+});
